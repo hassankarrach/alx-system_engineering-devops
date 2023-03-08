@@ -1,7 +1,2 @@
 #!/bin/bash
-ls -al
-cd ..
-ls -al
-cd /boot
-ls -al
-
+find . /boot -maxdepth 1 -ls
